@@ -1,0 +1,124 @@
+/* Fuente importada de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+/* Selector Global * */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Playfair Display SC", serif;
+}
+
+/*================================== HEADER ==================================*/
+header {
+    width: 100vw;
+    background: #FCB419;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 12px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: bolder;
+    text-shadow: 6px 2px 9px #000;
+}
+
+header img {
+    width: 20%;
+    filter: drop-shadow(12px 12px 40px #000);
+}
+
+/*======================================== NAV ========================================*/
+nav {
+    width: 100vw;
+    padding: 20px;
+    background: #000;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 22px;
+    color: #FCB419;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: #FCB419;
+    color: #000;
+}
+
+/*============================ SECTION MAIN ============================*/
+.principal__content {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__content .info__cards {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.principal__content .info__cards article {
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    padding: 12px;
+    border: 3px solid #000;
+    border-radius: 18px;
+}
+
+.principal__content .info__cards article img {
+    width: 80%;
+    height: 60%;
+    border-radius: 22px;
+}
+
+.download__content {
+    font-family: "Playfair", serif;
+}
+
+/*============================ FOOTER ============================*/
+
+footer {
+    background-color: #450171;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.icono_redes{
+    height: 50px;
+    width: 50px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.text_footer {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
